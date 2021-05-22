@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1621692159 source:c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\main.c
+	<stdio.h>
+	<stdlib.h>
+	"services/rubiksService.h"
+
+1621615620 source:c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\models\board.c
+
+1621633505 source:c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\models\color_enum.c
+	"color_enum.h"
+
+1621616725 source:c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\models\side_enum.c
+
+1621634191 source:c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\models\face.c
+	"face.h"
+
+1621621904 c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\models\cell.h
+	"color_enum.h"
+
+1621682094 c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\models\color_enum.h
+
+1621628953 c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\models\face.h
+	"side_enum.h"
+	"cell.h"
+
+1621631744 c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\models\side_enum.h
+
+1621621894 source:c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\models\cell.c
+	"cell.h"
+
+1621691880 c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\models\rubiks.h
+	"face.h"
+
+1621691884 source:c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\models\rubiks.c
+	"rubiks.h"
+
+1621695602 source:c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\services\displayservice.c
+	"rubiksService.h"
+	<windows.h>
+	<stdio.h>
+	<unistd.h>
+
+1621695035 c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\services\displayservice.h
+	"../models/rubiks.h"
+
+1621695416 c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\services\rubiksservice.h
+	"displayService.h"
+
+1621695534 source:c:\users\eveyssiere\perso\perso\rubikc\rubiks_cube\services\rubiksservice.c
+	"rubiksService.h"
+	<stdio.h>
+	<stdlib.h>
+

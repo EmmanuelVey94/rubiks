@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rubiks_cube" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/rubiks_cube" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/rubiks_cube" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="models/cell.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="models/cell.h" />
+		<Unit filename="models/color_enum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="models/color_enum.h" />
+		<Unit filename="models/face.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="models/face.h" />
+		<Unit filename="models/rubiks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="models/rubiks.h" />
+		<Unit filename="models/side_enum.h" />
+		<Unit filename="services/displayService.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="services/displayService.h" />
+		<Unit filename="services/rubiksService.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="services/rubiksService.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
