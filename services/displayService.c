@@ -109,14 +109,14 @@ void displaySideLine(Face up)
     }
 }
 
-void displayCenterLine(Face right, Face front, Face left, Face back)
+void displayCenterLine(Face left, Face front, Face right, Face back)
 {
     for(int i = 0; i < 3; i++)
     {
         printf("\t\t\t\t\t");
         for(int j = 0; j < 3; j++)
         {
-            displayCell(right.cells[i][j]);
+            displayCell(left.cells[i][j]);
         }
         printf("|");
 
@@ -128,7 +128,7 @@ void displayCenterLine(Face right, Face front, Face left, Face back)
 
         for(int j = 0; j < 3; j++)
         {
-            displayCell(left.cells[i][j]);
+            displayCell(right.cells[i][j]);
         }
         printf("|");
 

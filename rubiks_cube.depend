@@ -51,3 +51,51 @@
 	<stdio.h>
 	<stdlib.h>
 
+1621692159 source:c:\users\eveyssiere\perso\perso\rubiks\main.c
+	<stdio.h>
+	<stdlib.h>
+	"services/rubiksService.h"
+
+1621695416 c:\users\eveyssiere\perso\perso\rubiks\services\rubiksservice.h
+	"displayService.h"
+
+1621758616 c:\users\eveyssiere\perso\perso\rubiks\services\displayservice.h
+	"../models/rubiks.h"
+
+1621691880 c:\users\eveyssiere\perso\perso\rubiks\models\rubiks.h
+	"face.h"
+
+1621628953 c:\users\eveyssiere\perso\perso\rubiks\models\face.h
+	"side_enum.h"
+	"cell.h"
+
+1621631744 c:\users\eveyssiere\perso\perso\rubiks\models\side_enum.h
+
+1621621904 c:\users\eveyssiere\perso\perso\rubiks\models\cell.h
+	"color_enum.h"
+
+1621682094 c:\users\eveyssiere\perso\perso\rubiks\models\color_enum.h
+
+1621621894 source:c:\users\eveyssiere\perso\perso\rubiks\models\cell.c
+	"cell.h"
+
+1621633505 source:c:\users\eveyssiere\perso\perso\rubiks\models\color_enum.c
+	"color_enum.h"
+
+1621634191 source:c:\users\eveyssiere\perso\perso\rubiks\models\face.c
+	"face.h"
+
+1621691884 source:c:\users\eveyssiere\perso\perso\rubiks\models\rubiks.c
+	"rubiks.h"
+
+1621695602 source:c:\users\eveyssiere\perso\perso\rubiks\services\displayservice.c
+	"rubiksService.h"
+	<windows.h>
+	<stdio.h>
+	<unistd.h>
+
+1621695534 source:c:\users\eveyssiere\perso\perso\rubiks\services\rubiksservice.c
+	"rubiksService.h"
+	<stdio.h>
+	<stdlib.h>
+
